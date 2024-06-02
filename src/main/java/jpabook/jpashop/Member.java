@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
+@Entity // JPA가 관리해야 하는 대상 객체임을 표시
 @Getter
 @Setter
 public class Member {
